@@ -1,9 +1,5 @@
-<?php
 
-$inputTemperature = $_POST['temperature'];
-$inputUnit = $_POST['inputUnit'];
-$outputUnit = $_POST['outputUnit'];
-
+<?php 
 
 if ($inputUnit === 'celsius') {
     $outputTemperature = ($inputTemperature * 9 / 5) + 32; 
